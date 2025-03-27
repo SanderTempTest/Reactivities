@@ -11,7 +11,6 @@ type Props = {
   openForm: (id: string) => void;
   closeForm: () => void;
   editMode: boolean;
-  deleteActivity: (id: string) => void;
 }
 
 export default function ActivityDashboard({
